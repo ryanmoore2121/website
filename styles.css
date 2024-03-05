@@ -1,0 +1,118 @@
+body {
+    background-color:  rgb(16, 14, 14);
+    color: white;
+    font-family: Arial, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   }
+    header {
+        background-color: rgb(16, 14, 14);
+        color: white;
+    }
+
+    .header-video {
+        position: relative;
+        height: 35%; 
+    }
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .nav {
+        position: absolute;
+        color: white;
+        z-index: 1;
+        top: 50px;
+        left: 5%; 
+        text-decoration: none;
+    }
+
+    div.Name {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 75%;
+        left: 5%;
+        z-index: 1;
+    }
+
+    a:visited {
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    .aboutme.top {
+        color: rgb(250, 204, 169);
+        text-align: center;
+    }
+
+    .portfolio.bottom div {
+        text-align: center;
+        color: rgb(250, 204, 169);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .portfolio.bottom {
+        color: rgb(250, 204, 169);
+        text-align: center;
+    }
+
+    .portfolio.bottom ul {
+        display: inline-flex;
+    }
+
+    .portfolio.bottom img {
+        display: block;
+        margin: 0 auto;
+        width: 50%; 
+        height: flex; 
+        border-radius: 50%;
+        box-shadow: rgb(250, 204, 169);
+    }
+
+    div.professional img {
+        width: 50%;
+        height: 25%;
+        border-radius: 50%;
+        box-shadow: rgb(250, 204, 169);
+    }
+
+    div {
+        margin:auto;
+        position: center;
+    }
+
+    ul {
+        margin:0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 20px 0 0;
+    }
+
+    footer {
+        background: black;
+        padding: 10px 20px;
+    }
+
+    @media screen and (max-width = 450px) {
+        .header-video {
+            min-height: 5000cm; 
+        }
+    }
